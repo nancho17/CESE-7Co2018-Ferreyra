@@ -1,0 +1,149 @@
+EESchema Schematic File Version 4
+LIBS:ReadaptTTGO-cache
+EELAYER 29 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 5
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Battery_Management:MCP73831-2-OT U?
+U 1 1 5D0AB8B4
+P 7900 4900
+F 0 "U?" H 7900 5381 50  0000 C CNN
+F 1 "TP4054" H 7900 5290 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-5" H 7950 4650 50  0001 L CIN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20001984g.pdf" H 7750 4850 50  0001 C CNN
+	1    7900 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Interface_USB:CP2102N-A01-GQFN24 U?
+U 1 1 5D0AD7E1
+P 1900 2100
+F 0 "U?" H 1900 3181 50  0000 C CNN
+F 1 "CP2102N-A01-GQFN24" H 1900 3090 50  0000 C CNN
+F 2 "Package_DFN_QFN:QFN-24-1EP_4x4mm_P0.5mm_EP2.6x2.6mm" H 2350 1300 50  0001 L CNN
+F 3 "https://www.silabs.com/documents/public/data-sheets/cp2102n-datasheet.pdf" H 1950 1050 50  0001 C CNN
+	1    1900 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Display_OLED:EMH3 U?
+U 1 1 5D0B8815
+P 4000 1500
+F 0 "U?" H 4550 1765 50  0000 C CNN
+F 1 "EMH3" H 4550 1674 50  0000 C CNN
+F 2 "" H 4000 1650 50  0001 C CNN
+F 3 "" H 4000 1650 50  0001 C CNN
+	1    4000 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Regulator_Linear:LP2985-5.0 U?
+U 1 1 5D0BB4B8
+P 10000 1500
+F 0 "U?" H 10000 1842 50  0000 C CNN
+F 1 "ME6211" H 10000 1751 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-5" H 10000 1825 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lp2985.pdf" H 10000 1500 50  0001 C CNN
+	1    10000 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Regulator_Linear:LP2985-5.0 U?
+U 1 1 5D0BD25C
+P 10100 2600
+F 0 "U?" H 10100 2942 50  0000 C CNN
+F 1 "ME6211" H 10100 2851 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-5" H 10100 2925 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lp2985.pdf" H 10100 2600 50  0001 C CNN
+	1    10100 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:EMI_Filter_LL_1423 FL?
+U 1 1 5D0C3121
+P 3200 4700
+F 0 "FL?" H 3200 4981 50  0000 C CNN
+F 1 "EMI_Filter_LL_1423" H 3200 4890 50  0000 C CNN
+F 2 "" H 3200 4450 50  0001 C CNN
+F 3 "~" V 3200 4740 50  0001 C CNN
+	1    3200 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic_Shielded:Conn_01x02_Shielded J?
+U 1 1 5D0C5B5B
+P 9600 4800
+F 0 "J?" H 9688 4713 50  0000 L CNN
+F 1 "Conn_01x02_Shielded" H 9688 4622 50  0000 L CNN
+F 2 "" H 9600 4800 50  0001 C CNN
+F 3 "~" H 9600 4800 50  0001 C CNN
+	1    9600 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_SPDT SW?
+U 1 1 5D0C8BD6
+P 6600 1200
+F 0 "SW?" H 6600 1485 50  0000 C CNN
+F 1 "SW_SPDT" H 6600 1394 50  0000 C CNN
+F 2 "" H 6600 1200 50  0001 C CNN
+F 3 "~" H 6600 1200 50  0001 C CNN
+	1    6600 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_TVS D?
+U 1 1 5D0CCA3F
+P 1900 4600
+F 0 "D?" H 1900 4816 50  0000 C CNN
+F 1 "D_TVS" H 1900 4725 50  0000 C CNN
+F 2 "" H 1900 4600 50  0001 C CNN
+F 3 "~" H 1900 4600 50  0001 C CNN
+	1    1900 4600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_TVS D?
+U 1 1 5D0CDED8
+P 2200 4600
+F 0 "D?" H 2200 4816 50  0000 C CNN
+F 1 "D_TVS" H 2200 4725 50  0000 C CNN
+F 2 "" H 2200 4600 50  0001 C CNN
+F 3 "~" H 2200 4600 50  0001 C CNN
+	1    2200 4600
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5D0CF118
+P 2500 4200
+F 0 "R?" H 2570 4246 50  0000 L CNN
+F 1 "R" H 2570 4155 50  0000 L CNN
+F 2 "" V 2430 4200 50  0001 C CNN
+F 3 "~" H 2500 4200 50  0001 C CNN
+	1    2500 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5D0D084B
+P 3000 4100
+F 0 "R?" H 3070 4146 50  0000 L CNN
+F 1 "R" H 3070 4055 50  0000 L CNN
+F 2 "" V 2930 4100 50  0001 C CNN
+F 3 "~" H 3000 4100 50  0001 C CNN
+	1    3000 4100
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

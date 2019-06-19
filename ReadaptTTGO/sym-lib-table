@@ -1,0 +1,8 @@
+(sym_lib_table
+  (lib (name ESP32-footprints-Shem-Lib)(type Legacy)(uri "C:/Tesis Posgrado1/Libs para Cad de diseño/ESP32-kiCAD-Footprints-master/ESP32-Footprints/ESP32-footprints-Shem-Lib.lib")(options "")(descr ""))
+  (lib (name espressif-xess)(type Legacy)(uri "C:/Tesis Posgrado1/Libs para Cad de diseño/ESP32-kiCAD-Footprints-master/ESP32-Footprints/espressif-xess.lib")(options "")(descr ""))
+  (lib (name Displays)(type Legacy)(uri "C:/Tesis Posgrado1/Libs para Cad de diseño/KiCAD_Libraries-master/Schematic/Displays.lib")(options "")(descr ""))
+  (lib (name SSD1306_OLED-0.91-128x32)(type Legacy)(uri "C:/Tesis Posgrado1/Libs para Cad de diseño/KiCad-SSD1306_OLED-0.91-128x32-master/SSD1306_OLED-0.91-128x32.lib")(options "")(descr ""))
+  (lib (name oled-128o064d)(type Legacy)(uri "C:/Tesis Posgrado1/Libs para Cad de diseño/oled-128o064d.lib")(options "")(descr ""))
+  (lib (name Display_OLED)(type Legacy)(uri ${KIPRJMOD}/Display_OLED.lib)(options "")(descr ""))
+)
