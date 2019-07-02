@@ -17,12 +17,279 @@ $EndDescr
 $Comp
 L RF_Module:RFM69HCW U?
 U 1 1 5D0A7BFB
-P 3000 2600
-F 0 "U?" H 3000 3281 50  0000 C CNN
-F 1 "RFM69HCW" H 3000 3190 50  0000 C CNN
-F 2 "" H -300 4250 50  0001 C CNN
-F 3 "https://www.hoperf.com/data/upload/portal/20181127/5bfcb8284d838.pdf" H -300 4250 50  0001 C CNN
-	1    3000 2600
+P 2150 2650
+F 0 "U?" H 1750 3350 50  0000 C CNN
+F 1 "RFM69HCW" H 1900 3250 50  0000 C CNN
+F 2 "" H -1150 4300 50  0001 C CNN
+F 3 "https://www.hoperf.com/data/upload/portal/20181127/5bfcb8284d838.pdf" H -1150 4300 50  0001 C CNN
+	1    2150 2650
 	1    0    0    -1  
 $EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5D5049C8
+P 2150 3400
+F 0 "#PWR?" H 2150 3150 50  0001 C CNN
+F 1 "GND" H 2155 3227 50  0000 C CNN
+F 2 "" H 2150 3400 50  0001 C CNN
+F 3 "" H 2150 3400 50  0001 C CNN
+	1    2150 3400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2050 3250 2150 3250
+Connection ~ 2150 3250
+Wire Wire Line
+	2150 3250 2250 3250
+Wire Wire Line
+	2150 3400 2150 3250
+Text Label 2850 2350 0    50   ~ 0
+ANT
+Text Label 2850 3050 0    50   ~ 0
+IO26
+Text Label 2850 2950 0    50   ~ 0
+HPDIO1
+Text Label 2850 2850 0    50   ~ 0
+HPDIO2
+Text Label 1450 2850 0    50   ~ 0
+IO23
+Text Label 1450 2650 0    50   ~ 0
+IO18
+Text Label 1450 2350 0    50   ~ 0
+IO5
+Text Label 1450 2450 0    50   ~ 0
+IO27
+Text Label 1450 2550 0    50   ~ 0
+IO19
+Wire Wire Line
+	2650 2350 2850 2350
+Wire Wire Line
+	2650 2850 2850 2850
+Wire Wire Line
+	2650 2950 2850 2950
+Wire Wire Line
+	2650 3050 2850 3050
+Wire Wire Line
+	1650 2850 1450 2850
+Wire Wire Line
+	1650 2650 1450 2650
+Wire Wire Line
+	1650 2550 1450 2550
+Wire Wire Line
+	1650 2450 1450 2450
+Wire Wire Line
+	1650 2350 1450 2350
+$Comp
+L power:+3.3VP #PWR?
+U 1 1 5D50AD9D
+P 2150 2000
+AR Path="/5D087535/5D50AD9D" Ref="#PWR?"  Part="1" 
+AR Path="/5D086661/5D50AD9D" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 2300 1950 50  0001 C CNN
+F 1 "+3.3VP" H 2170 2143 50  0000 C CNN
+F 2 "" H 2150 2000 50  0001 C CNN
+F 3 "" H 2150 2000 50  0001 C CNN
+	1    2150 2000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2150 2150 2150 2000
+Text Label 4350 2650 0    50   ~ 0
+IO23
+Text Label 4350 2800 0    50   ~ 0
+IO18
+Text Label 4350 2950 0    50   ~ 0
+IO5
+Text Label 4350 3100 0    50   ~ 0
+IO27
+Text Label 4350 3250 0    50   ~ 0
+IO19
+Text Label 4350 2500 0    50   ~ 0
+IO26
+Text Label 4350 2300 0    50   ~ 0
+HPDIO1
+Text Label 4350 2200 0    50   ~ 0
+HPDIO2
+Wire Wire Line
+	4350 2200 5150 2200
+Wire Wire Line
+	4350 2300 5150 2300
+Wire Wire Line
+	4350 2500 5150 2500
+Wire Wire Line
+	4350 2650 5150 2650
+Wire Wire Line
+	4350 2800 5150 2800
+Wire Wire Line
+	4350 2950 5150 2950
+Wire Wire Line
+	4350 3100 5150 3100
+Wire Wire Line
+	4350 3250 5150 3250
+Text HLabel 5150 2200 2    50   Input ~ 0
+HPDIO2
+Text HLabel 5150 2300 2    50   Input ~ 0
+HPDIO1
+Text HLabel 5150 2500 2    50   Input ~ 0
+IO26
+Text HLabel 5150 2650 2    50   Input ~ 0
+IO23
+Text HLabel 5150 2800 2    50   Input ~ 0
+IO18
+Text HLabel 5150 2950 2    50   Input ~ 0
+IO5
+Text HLabel 5150 3100 2    50   Input ~ 0
+IO27
+Text HLabel 5150 3250 2    50   Input ~ 0
+IO19
+$Comp
+L Device:Antenna_Shield AE?
+U 1 1 5D51F020
+P 3900 5850
+F 0 "AE?" V 3978 6080 50  0000 L CNN
+F 1 "Antenna Jack" V 3887 6080 50  0000 L CNN
+F 2 "" H 3900 5950 50  0001 C CNN
+F 3 "~" H 3900 5950 50  0001 C CNN
+	1    3900 5850
+	0    1    -1   0   
+$EndComp
+$Comp
+L Device:Antenna_Chip AE?
+U 1 1 5D51FFE1
+P 4400 5300
+F 0 "AE?" V 4372 5605 50  0000 L CNN
+F 1 "WIFI ANT" V 4463 5605 50  0000 L CNN
+F 2 "" H 4300 5475 50  0001 C CNN
+F 3 "~" H 4300 5475 50  0001 C CNN
+	1    4400 5300
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5D5238B0
+P 2550 5200
+F 0 "C?" V 2298 5200 50  0000 C CNN
+F 1 "220pF" V 2389 5200 50  0000 C CNN
+F 2 "" H 2588 5050 50  0001 C CNN
+F 3 "~" H 2550 5200 50  0001 C CNN
+	1    2550 5200
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5D524DEE
+P 2900 5500
+F 0 "C?" H 3015 5546 50  0000 L CNN
+F 1 "C" H 3015 5455 50  0000 L CNN
+F 2 "" H 2938 5350 50  0001 C CNN
+F 3 "~" H 2900 5500 50  0001 C CNN
+	1    2900 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5D5279A1
+P 2250 5500
+F 0 "C?" H 2365 5546 50  0000 L CNN
+F 1 "C" H 2365 5455 50  0000 L CNN
+F 2 "" H 2288 5350 50  0001 C CNN
+F 3 "~" H 2250 5500 50  0001 C CNN
+	1    2250 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5D528D84
+P 3700 5550
+F 0 "R?" H 3770 5596 50  0000 L CNN
+F 1 "R" H 3770 5505 50  0000 L CNN
+F 2 "" V 3630 5550 50  0001 C CNN
+F 3 "~" H 3700 5550 50  0001 C CNN
+	1    3700 5550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2900 5350 2900 5200
+Wire Wire Line
+	2900 5200 2700 5200
+Wire Wire Line
+	2400 5200 2250 5200
+Wire Wire Line
+	2250 5200 2250 5350
+Wire Wire Line
+	2250 5650 2250 5900
+Wire Wire Line
+	2900 5650 2900 5900
+Wire Wire Line
+	2900 5900 2250 5900
+$Comp
+L power:GND #PWR?
+U 1 1 5D52C9D5
+P 2900 5950
+F 0 "#PWR?" H 2900 5700 50  0001 C CNN
+F 1 "GND" H 2905 5777 50  0000 C CNN
+F 2 "" H 2900 5950 50  0001 C CNN
+F 3 "" H 2900 5950 50  0001 C CNN
+	1    2900 5950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2250 5200 1650 5200
+Connection ~ 2250 5200
+Text Label 1650 5200 0    50   ~ 0
+ANT
+$Comp
+L Device:R R?
+U 1 1 5D531E22
+P 3900 5200
+F 0 "R?" V 4107 5200 50  0000 C CNN
+F 1 "0R" V 4016 5200 50  0000 C CNN
+F 2 "" V 3830 5200 50  0001 C CNN
+F 3 "~" H 3900 5200 50  0001 C CNN
+	1    3900 5200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3750 5200 3700 5200
+Wire Wire Line
+	3700 5200 3700 5400
+Wire Wire Line
+	2900 5200 3700 5200
+Connection ~ 2900 5200
+Connection ~ 3700 5200
+Wire Wire Line
+	4050 5200 4300 5200
+$Comp
+L power:GND #PWR?
+U 1 1 5D538F07
+P 4300 5550
+F 0 "#PWR?" H 4300 5300 50  0001 C CNN
+F 1 "GND" H 4305 5377 50  0000 C CNN
+F 2 "" H 4300 5550 50  0001 C CNN
+F 3 "" H 4300 5550 50  0001 C CNN
+	1    4300 5550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4300 5400 4300 5550
+$Comp
+L power:GND #PWR?
+U 1 1 5D53D17D
+P 3700 5950
+F 0 "#PWR?" H 3700 5700 50  0001 C CNN
+F 1 "GND" H 3705 5777 50  0000 C CNN
+F 2 "" H 3700 5950 50  0001 C CNN
+F 3 "" H 3700 5950 50  0001 C CNN
+	1    3700 5950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2900 5950 2900 5900
+Connection ~ 2900 5900
+Wire Wire Line
+	3700 5850 3700 5950
+Wire Wire Line
+	3700 5750 3700 5700
+Text Notes 5800 2850 0    50   ~ 0
+IO23=RESET\nIO18=NSS/SEL\nIO5=SCK\nIO27=MOSI/SDI\nIO19=MISO/SDO\nIO26=DI0/IO0
 $EndSCHEMATC
