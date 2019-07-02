@@ -120,8 +120,6 @@ F 3 "" H 5600 900 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	5700 3000 5700 3100
-Wire Wire Line
-	2550 2900 5700 2900
 $Comp
 L Device:C C21
 U 1 1 5D1B79D9
@@ -321,7 +319,7 @@ IO21
 Text Label 7500 1300 1    50   ~ 0
 TXD
 Text Label 7600 1300 1    50   ~ 0
-RDX
+RXD
 $Comp
 L power:+3V3 #PWR0167
 U 1 1 5D1EA291
@@ -340,8 +338,6 @@ IO19
 NoConn ~ 8800 3800
 Wire Wire Line
 	8800 3000 9450 3000
-Text Label 9450 3000 0    50   ~ 0
-IO5
 Text Label 9450 2800 0    50   ~ 0
 IO23
 Text Label 9450 2900 0    50   ~ 0
@@ -1058,7 +1054,7 @@ Wire Wire Line
 Wire Wire Line
 	1350 7000 1000 7000
 Text Label 1000 7000 0    50   ~ 0
-asdsa
+IO19
 Text HLabel 1000 6900 0    50   Input ~ 0
 HPDIO2
 Text HLabel 1000 6800 0    50   Input ~ 0
@@ -1446,4 +1442,21 @@ Wire Wire Line
 Connection ~ 2600 5450
 Wire Wire Line
 	2600 5450 3100 5450
+NoConn ~ 1000 6700
+NoConn ~ 8800 3900
+NoConn ~ 8800 3700
+NoConn ~ 8800 3600
+NoConn ~ 8800 3500
+NoConn ~ 8800 3400
+NoConn ~ 8800 3300
+NoConn ~ 8800 3200
+NoConn ~ 8800 3100
+NoConn ~ 6800 1900
+NoConn ~ 6900 1900
+NoConn ~ 7100 1900
+NoConn ~ 7200 1900
+Text Label 9450 3000 0    50   ~ 0
+IO5
+Wire Wire Line
+	2550 2900 5700 2900
 $EndSCHEMATC
