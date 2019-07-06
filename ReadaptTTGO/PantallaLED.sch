@@ -5,11 +5,11 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 3 5
-Title ""
-Date ""
-Rev ""
-Comp ""
-Comment1 ""
+Title "TTGO"
+Date "2019-07-05"
+Rev "Rev 1.0"
+Comp "Ing. Hernán Dario Ferreyra- Revisor: Suarez Sebastian Alejandro"
+Comment1 "Rediseño basado en TTGO-LORA32-V2.0 (https://github.com/LilyGO/TTGO-LORA32-V2.0)"
 Comment2 ""
 Comment3 ""
 Comment4 ""

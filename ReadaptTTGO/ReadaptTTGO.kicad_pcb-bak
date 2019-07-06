@@ -2948,7 +2948,7 @@
   )
 
   (module Fiducial:Fiducial_1mm_Mask2mm (layer F.Cu) (tedit 5C18CB26) (tstamp 5D1FAD89)
-    (at 162 41)
+    (at 84.59 50.97)
     (descr "Circular Fiducial, 1mm bare copper, 2mm soldermask opening (Level A)")
     (tags fiducial)
     (path /5D082260/5D906E62)
@@ -2969,7 +2969,7 @@
   )
 
   (module Fiducial:Fiducial_1mm_Mask2mm (layer F.Cu) (tedit 5C18CB26) (tstamp 5D1FAD81)
-    (at 233.5 41.5)
+    (at 73.54 58.55)
     (descr "Circular Fiducial, 1mm bare copper, 2mm soldermask opening (Level A)")
     (tags fiducial)
     (path /5D082260/5D24333A)
@@ -2990,7 +2990,7 @@
   )
 
   (module Fiducial:Fiducial_1mm_Mask2mm (layer F.Cu) (tedit 5C18CB26) (tstamp 5D1FAD79)
-    (at 231.5 146)
+    (at 57.04 58.75)
     (descr "Circular Fiducial, 1mm bare copper, 2mm soldermask opening (Level A)")
     (tags fiducial)
     (path /5D082260/5D2425E0)

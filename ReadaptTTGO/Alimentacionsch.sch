@@ -5,11 +5,11 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 5
-Title ""
-Date ""
-Rev ""
-Comp ""
-Comment1 ""
+Title "TTGO"
+Date "2019-07-05"
+Rev "Rev 1.0"
+Comp "Ing. Hernán Dario Ferreyra- Revisor: Suarez Sebastian Alejandro"
+Comment1 "Rediseño basado en TTGO-LORA32-V2.0 (https://github.com/LilyGO/TTGO-LORA32-V2.0)"
 Comment2 ""
 Comment3 ""
 Comment4 ""
@@ -20,7 +20,7 @@ U 1 1 5D0B8815
 P 6000 2050
 F 0 "U3" H 6550 2315 50  0000 C CNN
 F 1 "EMH3" H 6550 2224 50  0000 C CNN
-F 2 "" H 6000 2200 50  0001 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-563" H 6000 2200 50  0001 C CNN
 F 3 "" H 6000 2200 50  0001 C CNN
 	1    6000 2050
 	1    0    0    -1  
@@ -790,11 +790,6 @@ F 3 "" H 2550 1350 50  0001 C CNN
 	1    2550 1350
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3450 2900 3900 2900
-Connection ~ 3450 2600
-Wire Wire Line
-	3450 2600 3900 2600
 $Comp
 L power:+3.3VP #PWR0127
 U 1 1 5D2A45B1
@@ -808,25 +803,17 @@ F 3 "" H 1550 3500 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	2400 2750 2400 2400
-Wire Wire Line
-	2500 2400 2500 2500
 $Comp
 L power:+3.3VP #PWR0128
 U 1 1 5D294858
-P 2450 2400
-F 0 "#PWR0128" H 2600 2350 50  0001 C CNN
-F 1 "+3.3VP" H 2470 2543 50  0000 C CNN
-F 2 "" H 2450 2400 50  0001 C CNN
-F 3 "" H 2450 2400 50  0001 C CNN
-	1    2450 2400
+P 2400 2400
+F 0 "#PWR0128" H 2550 2350 50  0001 C CNN
+F 1 "+3.3VP" H 2420 2543 50  0000 C CNN
+F 2 "" H 2400 2400 50  0001 C CNN
+F 3 "" H 2400 2400 50  0001 C CNN
+	1    2400 2400
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2400 2400 2450 2400
-Connection ~ 2450 2400
-Wire Wire Line
-	2450 2400 2500 2400
-Connection ~ 2500 2500
 Wire Wire Line
 	3100 3250 3450 3250
 Wire Wire Line
@@ -835,15 +822,8 @@ Wire Wire Line
 	3100 3450 3450 3450
 Wire Wire Line
 	3100 3650 3450 3650
-Connection ~ 3900 2900
 Wire Wire Line
-	3900 2950 3900 2900
-Wire Wire Line
-	3450 2500 3450 2600
-Wire Wire Line
-	2500 2500 3450 2500
-Wire Wire Line
-	2500 2500 2500 2750
+	3600 2400 3600 2500
 Wire Wire Line
 	1550 3500 1550 3650
 Wire Wire Line
@@ -874,36 +854,14 @@ F 3 "https://www.silabs.com/documents/public/data-sheets/cp2102n-datasheet.pdf" 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C2
-U 1 1 5D1CAA22
-P 3900 2750
-F 0 "C2" H 4015 2796 50  0000 L CNN
-F 1 "10uF" H 4015 2705 50  0000 L CNN
-F 2 "Capacitor_SMD:C_01005_0402Metric" H 3938 2600 50  0001 C CNN
-F 3 "~" H 3900 2750 50  0001 C CNN
-	1    3900 2750
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0129
-U 1 1 5D1C9C40
-P 3900 2950
-F 0 "#PWR0129" H 3900 2700 50  0001 C CNN
-F 1 "GND" H 3905 2777 50  0000 C CNN
-F 2 "" H 3900 2950 50  0001 C CNN
-F 3 "" H 3900 2950 50  0001 C CNN
-	1    3900 2950
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:C C1
 U 1 1 5D1C5E8C
-P 3450 2750
-F 0 "C1" H 3565 2796 50  0000 L CNN
-F 1 "100nF" H 3565 2705 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0201_0603Metric" H 3488 2600 50  0001 C CNN
-F 3 "~" H 3450 2750 50  0001 C CNN
-	1    3450 2750
+P 3250 2700
+F 0 "C1" H 3365 2746 50  0000 L CNN
+F 1 "100nF" H 3365 2655 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0201_0603Metric" H 3288 2550 50  0001 C CNN
+F 3 "~" H 3250 2700 50  0001 C CNN
+	1    3250 2700
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1125,4 +1083,52 @@ Wire Wire Line
 	8350 1050 8600 1050
 Connection ~ 8350 1050
 Connection ~ 8600 1050
+Connection ~ 2500 2400
+Wire Wire Line
+	2500 2400 2500 2750
+$Comp
+L power:GND #PWR0129
+U 1 1 5D1C9C40
+P 3900 3050
+F 0 "#PWR0129" H 3900 2800 50  0001 C CNN
+F 1 "GND" H 3905 2877 50  0000 C CNN
+F 2 "" H 3900 3050 50  0001 C CNN
+F 3 "" H 3900 3050 50  0001 C CNN
+	1    3900 3050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3900 2950 3900 2900
+$Comp
+L Device:C C2
+U 1 1 5D1CAA22
+P 3900 2750
+F 0 "C2" H 4000 2850 50  0000 L CNN
+F 1 "10uF" H 4000 2750 50  0000 L CNN
+F 2 "Capacitor_SMD:C_01005_0402Metric" H 3938 2600 50  0001 C CNN
+F 3 "~" H 3900 2750 50  0001 C CNN
+	1    3900 2750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3900 3050 3900 2950
+Connection ~ 3900 2950
+Wire Wire Line
+	3250 2950 3250 2850
+Wire Wire Line
+	3250 2950 3900 2950
+Wire Wire Line
+	3250 2550 3250 2500
+Wire Wire Line
+	3900 2500 3900 2600
+Connection ~ 3600 2500
+Wire Wire Line
+	3600 2500 3900 2500
+Wire Wire Line
+	3250 2500 3600 2500
+Wire Wire Line
+	2500 2400 3600 2400
+Connection ~ 2400 2400
+Wire Wire Line
+	2400 2400 2500 2400
 $EndSCHEMATC

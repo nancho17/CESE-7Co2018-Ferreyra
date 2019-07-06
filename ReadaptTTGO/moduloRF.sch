@@ -5,11 +5,11 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 4 5
-Title ""
-Date ""
-Rev ""
-Comp ""
-Comment1 ""
+Title "TTGO"
+Date "2019-07-05"
+Rev "Rev 1.0"
+Comp "Ing. Hernán Dario Ferreyra- Revisor: Suarez Sebastian Alejandro"
+Comment1 "Rediseño basado en TTGO-LORA32-V2.0 (https://github.com/LilyGO/TTGO-LORA32-V2.0)"
 Comment2 ""
 Comment3 ""
 Comment4 ""
@@ -20,7 +20,7 @@ U 1 1 5D0A7BFB
 P 2150 2650
 F 0 "U9" H 1750 3350 50  0000 C CNN
 F 1 "RFM69HCW" H 1900 3250 50  0000 C CNN
-F 2 "" H -1150 4300 50  0001 C CNN
+F 2 "RF_Module:HOPERF_RFM69HW" H -1150 4300 50  0001 C CNN
 F 3 "https://www.hoperf.com/data/upload/portal/20181127/5bfcb8284d838.pdf" H -1150 4300 50  0001 C CNN
 	1    2150 2650
 	1    0    0    -1  
@@ -145,13 +145,13 @@ IO19
 $Comp
 L Device:Antenna_Shield AE1
 U 1 1 5D51F020
-P 3900 5850
-F 0 "AE1" V 3978 6080 50  0000 L CNN
-F 1 "Antenna Jack" V 3887 6080 50  0000 L CNN
-F 2 "" H 3900 5950 50  0001 C CNN
-F 3 "~" H 3900 5950 50  0001 C CNN
-	1    3900 5850
-	0    1    -1   0   
+P 3900 5750
+F 0 "AE1" V 4150 5800 50  0000 L CNN
+F 1 "Antenna Jack" V 4050 5800 50  0000 L CNN
+F 2 "Connector_Coaxial:SMA_Amphenol_132134_Vertical" H 3900 5850 50  0001 C CNN
+F 3 "~" H 3900 5850 50  0001 C CNN
+	1    3900 5750
+	0    1    1    0   
 $EndComp
 $Comp
 L Device:Antenna_Chip AE2
@@ -159,7 +159,7 @@ U 1 1 5D51FFE1
 P 4400 5300
 F 0 "AE2" V 4372 5605 50  0000 L CNN
 F 1 "WIFI ANT" V 4463 5605 50  0000 L CNN
-F 2 "" H 4300 5475 50  0001 C CNN
+F 2 "Connector_Coaxial:SMA_Amphenol_132134-11_Vertical" H 4300 5475 50  0001 C CNN
 F 3 "~" H 4300 5475 50  0001 C CNN
 	1    4400 5300
 	0    1    1    0   

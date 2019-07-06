@@ -5,11 +5,11 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 5 5
-Title ""
-Date ""
-Rev ""
-Comp ""
-Comment1 ""
+Title "TTGO"
+Date "2019-07-05"
+Rev "Rev 1.0"
+Comp "Ing. Hernán Dario Ferreyra- Revisor: Suarez Sebastian Alejandro"
+Comment1 "Rediseño basado en TTGO-LORA32-V2.0 (https://github.com/LilyGO/TTGO-LORA32-V2.0)"
 Comment2 ""
 Comment3 ""
 Comment4 ""
@@ -30,8 +30,8 @@ L Device:Antenna_Chip AE3
 U 1 1 5D1A2E3C
 P 1250 3000
 F 0 "AE3" V 1567 3081 50  0000 C CNN
-F 1 "Antenna_Chip" V 1476 3081 50  0000 C CNN
-F 2 "" H 1150 3175 50  0001 C CNN
+F 1 "Pcb_Antenna" V 1476 3081 50  0000 C CNN
+F 2 "MyAntennas:SWRA117D" H 1150 3175 50  0001 C CNN
 F 3 "~" H 1150 3175 50  0001 C CNN
 	1    1250 3000
 	0    -1   -1   0   
@@ -1130,7 +1130,7 @@ F 1 "Conn_01x13_Female" H 1000 7650 50  0000 L CNN
 F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-13-5.0-H_1x13_P5.00mm_Horizontal" H 1550 6900 50  0001 C CNN
 F 3 "~" H 1550 6900 50  0001 C CNN
 	1    1550 6900
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L Connector:Conn_01x13_Female J5
