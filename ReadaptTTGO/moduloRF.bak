@@ -159,7 +159,7 @@ U 1 1 5D51FFE1
 P 4400 5300
 F 0 "AE2" V 4372 5605 50  0000 L CNN
 F 1 "WIFI ANT" V 4463 5605 50  0000 L CNN
-F 2 "Connector_Coaxial:SMA_Amphenol_132134-11_Vertical" H 4300 5475 50  0001 C CNN
+F 2 "Connector_Coaxial:SMA_Amphenol_132134_Vertical" H 4300 5475 50  0001 C CNN
 F 3 "~" H 4300 5475 50  0001 C CNN
 	1    4400 5300
 	0    1    1    0   
