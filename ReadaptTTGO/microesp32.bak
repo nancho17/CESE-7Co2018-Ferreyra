@@ -538,9 +538,9 @@ Text Label 1850 900  0    50   ~ 0
 U0TXD
 Text Label 1850 750  0    50   ~ 0
 U0RXD
-Text Label 1700 1400 0    50   ~ 0
-U0TXD
 Text Label 1700 1250 0    50   ~ 0
+U0TXD
+Text Label 1700 1400 0    50   ~ 0
 U0RXD
 Wire Wire Line
 	1050 1250 1700 1250
