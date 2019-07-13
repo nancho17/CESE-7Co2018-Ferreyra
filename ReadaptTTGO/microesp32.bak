@@ -1420,7 +1420,6 @@ Connection ~ 2600 5450
 Wire Wire Line
 	2600 5450 3100 5450
 NoConn ~ 1000 6700
-NoConn ~ 8800 3900
 NoConn ~ 8800 3700
 NoConn ~ 8800 3600
 NoConn ~ 8800 3500
@@ -1454,4 +1453,17 @@ F 3 "~" H 10550 750 50  0001 C CNN
 	1    10550 750 
 	1    0    0    -1  
 $EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5D5A9AF7
+P 8800 4000
+F 0 "#PWR?" H 8800 3750 50  0001 C CNN
+F 1 "GND" H 8805 3827 50  0000 C CNN
+F 2 "" H 8800 4000 50  0001 C CNN
+F 3 "" H 8800 4000 50  0001 C CNN
+	1    8800 4000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8800 3900 8800 4000
 $EndSCHEMATC

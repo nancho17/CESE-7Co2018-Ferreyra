@@ -6,8 +6,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 5
 Title "FeTTGO (remake del TTGO V2.0)"
-Date "2019-07-05"
-Rev "Rev 1.0"
+Date "2019-07-12"
+Rev "Rev 1.1"
 Comp "Ing. Hernán Dario Ferreyra- Revisor: Suarez Sebastian Alejandro"
 Comment1 "Rediseño basado en TTGO-LORA32-V2.0 (https://github.com/LilyGO/TTGO-LORA32-V2.0)"
 Comment2 ""
