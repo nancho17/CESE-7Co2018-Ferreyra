@@ -295,4 +295,6 @@ IO23=RESET\nIO18=NSS/SEL\nIO5=SCK\nIO27=MOSI/SDI\nIO19=MISO/SDO\nIO26=DI0/IO0
 NoConn ~ 2650 2550
 NoConn ~ 2650 2650
 NoConn ~ 2650 2750
+Text Notes 1350 1300 0    197  ~ 0
+Integrado de comunicacion por radiofrecuencia.
 $EndSCHEMATC

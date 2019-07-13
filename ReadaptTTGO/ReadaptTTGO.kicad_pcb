@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 16)
+    (drawings 17)
     (tracks 1707)
     (zones 0)
     (modules 103)
@@ -42,7 +42,7 @@
   )
 
   (setup
-    (last_trace_width 0.4)
+    (last_trace_width 0.2)
     (user_trace_width 0.2)
     (user_trace_width 0.4)
     (trace_clearance 0.2)
@@ -2003,7 +2003,7 @@
     (tags fiducial)
     (path /5D082260/5D296F29)
     (attr smd)
-    (fp_text reference H4 (at -2.5 0.5) (layer F.SilkS)
+    (fp_text reference H4 (at -2.5 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value MountingHole (at 0 2) (layer F.Fab)
@@ -3933,7 +3933,7 @@
     (tags fiducial)
     (path /5D082260/5D906E62)
     (attr smd)
-    (fp_text reference H3 (at 4 0.25) (layer F.SilkS)
+    (fp_text reference H3 (at 4 0.25) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value MountingHole (at 0 2) (layer F.Fab)
@@ -3954,7 +3954,7 @@
     (tags fiducial)
     (path /5D082260/5D24333A)
     (attr smd)
-    (fp_text reference H2 (at -3.5 0) (layer F.SilkS)
+    (fp_text reference H2 (at -3.5 0) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value MountingHole (at 0 2) (layer F.Fab)
@@ -3975,7 +3975,7 @@
     (tags fiducial)
     (path /5D082260/5D2425E0)
     (attr smd)
-    (fp_text reference H1 (at 0 -2) (layer F.SilkS)
+    (fp_text reference H1 (at 0 -2) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value MountingHole (at 0 2) (layer F.Fab)
@@ -5349,6 +5349,9 @@
     )
   )
 
+  (gr_text "Ferreyra\nFeTTGO\nRev. 1.2" (at 93.25 125.75) (layer F.SilkS)
+    (effects (font (size 1.5 1.5) (thickness 0.3)))
+  )
   (gr_line (start 57 134) (end 57 139) (layer Edge.Cuts) (width 0.05) (tstamp 5D2AE1A6))
   (gr_line (start 115.5 134) (end 115.5 139) (layer Edge.Cuts) (width 0.05) (tstamp 5D2AE1A5))
   (gr_text "Datos del fabricante elegido:\n\nEstándares de fabricación\nDiámetro de agujero                           16 (0,40 mm)\n\nDiámetro de pad o vía                         28 (0,70 mm)\n\nAncho de traza                                 5 (0,125 mm)\n  \nSeparación entre trazas                        5 (0,125 mm)\n\nSeparación entre traza y pad/vía              5 (0,125 mm)\n\nDistancia de cobre a borde                    12 (0,30 mm)\n\nAltura - trazo de letras                       30 - 5" (at 162 133) (layer Dwgs.User)
